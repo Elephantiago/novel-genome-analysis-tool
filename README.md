@@ -15,4 +15,6 @@ You should have console output with text data similar to what you see in Output6
 Running with just email without other arguments is instant, --full argument takes a few seconds to complete, --extra takes about 5 minutes and --ultra can easily take an hour to process.
 Note that your email is required to pull the genomic data from the official site. No verification is required, it is used to ban certain users if they abuse the server limits and pull data thousand times an hour.
 That's also the reason why genomic data is cached, so program won't spam the servers with every run.
+Please note the analysis steps that are too computing intensive are trimmed to just the first 200 thousand basepairs. In order to run the full analysis just search for every mention
+of number 200 000 in the code and change it to let's say 2 billion for a full analysis, although this might take several hours with ease.
 Please note that version 6.1 is well tested, while version 6.3GPU is GPU accelerated and provides deeper insights, but it might easily cause trouble.
